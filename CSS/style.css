@@ -1,0 +1,99 @@
+*{
+    
+    margin:0px;
+    padding:0px
+}
+body{
+    background-image: url("../media/caverna2.jpeg");
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin:0px;
+    padding: 0px; 
+}
+header{
+    background-color:red;
+    padding: 30px
+}
+h1{
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 50px;
+    text-align: center;
+} 
+
+
+h2{
+    color: limegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 30px;
+    text-align: start;
+}
+
+h4{
+    color: lemonchiffon;
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+}
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+
+}
+
+img{
+
+    height: 400px;
+    width: 400px; 
+    display:flex;
+    position:center;
+    
+}
+
+figcaption{
+    color: lawngreen;
+    font-size: 20px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:30px 30px 30px 30px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    font-size: 20px;
+    color: rgb(29, 110, 216);
+    text-decoration: none;
+    border: 2px solid rgb(36, 38, 201);
+    padding: 15px 10px;
+    border-radius: 15px;
+    background-color: rgb(224, 238, 144);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a:hover{
+    color: white;
+    background-color: rgba(164, 76, 247, 0.863);
+}
+
+footer{
+    color: lightgreen;
+    padding: 100px 10px 10px 10px;
+}
